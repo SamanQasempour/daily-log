@@ -1,0 +1,19 @@
+[0;1;31m×[0m daily-log.service - Daily Git Log Service
+     Loaded: loaded (]8;;file://saman-Lenovo-IdeaPad-Z500/etc/systemd/system/daily-log.service\/etc/systemd/system/daily-log.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Sun 2026-06-21 11:13:40 +0330; 15s ago
+ Invocation: 8d0bc44d2347486683f71f2e14006370
+    Process: 58106 ExecStart=/bin/bash /home/saman/daily-log/auto-log.sh [0;1;31m(code=exited, status=128)[0m
+   Main PID: 58106 (code=exited, status=128)
+   Mem peak: 2.9M
+        CPU: 66ms
+
+Jun 21 11:13:39 saman-Lenovo-IdeaPad-Z500 systemd[1]: Starting daily-log.service - Daily Git Log Service...
+Jun 21 11:13:39 saman-Lenovo-IdeaPad-Z500 bash[58110]: [main 8d217ea] Auto log: 2026-06-21 11:13:39
+Jun 21 11:13:39 saman-Lenovo-IdeaPad-Z500 bash[58110]:  1 file changed, 1 insertion(+)
+Jun 21 11:13:40 saman-Lenovo-IdeaPad-Z500 bash[58114]: git@github.com: Permission denied (publickey).
+Jun 21 11:13:40 saman-Lenovo-IdeaPad-Z500 bash[58113]: fatal: Could not read from remote repository.
+Jun 21 11:13:40 saman-Lenovo-IdeaPad-Z500 bash[58113]: Please make sure you have the correct access rights
+Jun 21 11:13:40 saman-Lenovo-IdeaPad-Z500 bash[58113]: and the repository exists.
+Jun 21 11:13:40 saman-Lenovo-IdeaPad-Z500 systemd[1]: [0;1;39m[0;1;31m[0;1;39mdaily-log.service: Main process exited, code=exited, status=128/n/a[0m
+Jun 21 11:13:40 saman-Lenovo-IdeaPad-Z500 systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mdaily-log.service: Failed with result 'exit-code'.[0m
+Jun 21 11:13:40 saman-Lenovo-IdeaPad-Z500 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start daily-log.service - Daily Git Log Service.[0m
